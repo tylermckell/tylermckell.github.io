@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Unit Circle Game</title>
+
+  <script src="https://kit.fontawesome.com/8242baaace.js" crossorigin="anonymous"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="main">
+
+  <!-- Navigation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Instructions</a>
+      <p>Game Modes</p>
+      <a href="degrees.html">Degrees</a>
+      <a href="radians.html">Radians</a>
+      <a href="coordinates.html">Coordinates</a>
+    </div>
+    <span style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+ 
+    
+    <!-- Menu -->
+    <div id="mainMenu">
+        <img src="images/chairIcon.svg" width="100" height="100"> 
+        <h1>The Unit Circle Game</h1>
+        <hr>
+        <h2><strong>Choose a game mode</strong></h2>
+        <section class="chooseDegrees">
+            <a href="degrees.html"><img class="degree_image_top" src="images/degrees2.svg" alt="" width="200" height="200"></a>
+           <a href="degrees.html"><img src="images/degrees1.svg" alt="" width="200" height="200"></a>
+           <h3>Degrees</h3>
+        </section>
+        <section class="chooseRadians">
+            <a href="radians.html"><img class="radians_image_top" src="images/radians2.svg" alt="" width="200" height="200"></a>
+           <a href="radians.html"><img src="images/radians1.svg" alt="" width="200" height="200"></a>
+           <h3>Radians</h3>
+        </section>
+        <section class="chooseCoordinates">
+            <a href="coordinates.html"><img class="coordinates_image_top" src="images/coordinates2.svg" alt="" width="200" height="200"></a>
+           <a href="coordinates.html"><img src="images/coordinates1.svg" alt="" width="200" height="200"></a>
+           <h3>Coordinates</h3>
+        </section>
+     </div>
+
+
+    <!-- How to Play -->
+    <div id="howToPlay">
+      <h2><strong>How to Play</strong></h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0EEbI8QwH4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer-basic">
+        <footer>
+            <div class="social">
+              <a href="mailto:tylermckell@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+              <a href="https://www.teacherspayteachers.com/Store/Tyler-Mckell"><i class="fa-solid fa-store"></i></a>
+            
+            </div>
+            <p class="copyright">Tyler McKell © 2022</p>
+        </footer>
+    </div>
+    <script src="scriptCoordinates.js"></script>
+</body>
+
+</html>
