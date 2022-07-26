@@ -9,7 +9,7 @@ function openNav() {
   }
   
   //Arrays
-  var radians = ['\u03C0/4', '\u03C0/4', '\u03C0/3', '\u03C0/2', '2\u03C0/3','3\u03C0/4', '5\u03C0/6', '\u03C0', '7\u03C0/6', '5\u03C0/4', '4\u03C0/3', '3\u03C0/2', '5\u03C0/3', '7\u03C0/4', '11\u03C0/6', '2\u03C0'];
+  var radians = ['\u03C0/6', '\u03C0/4', '\u03C0/3', '\u03C0/2', '2\u03C0/3','3\u03C0/4', '5\u03C0/6', '\u03C0', '7\u03C0/6', '5\u03C0/4', '4\u03C0/3', '3\u03C0/2', '5\u03C0/3', '7\u03C0/4', '11\u03C0/6', '2\u03C0'];
   
   //Fisher Yates Shuffle
   function shuffleRadians() {
